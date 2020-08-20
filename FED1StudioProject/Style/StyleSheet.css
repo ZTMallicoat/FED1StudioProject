@@ -1,0 +1,20 @@
+﻿header, footer, body{
+    background-color:teal;
+    text-align:center
+}
+footer,p,h1,h2{
+    background-color:maroon;
+    color:burlywood
+}
+h1,h2{
+    font-weight:bold
+}
+h2{
+    font-style:italic
+}
+#Groot{
+    font-size:65px
+}
+.Subgroot{
+    font-size:32px
+}
