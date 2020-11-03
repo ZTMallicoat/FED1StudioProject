@@ -67,6 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\124021.png" />
+    <Content Include="Images\FAcebook.jpg" />
+    <Content Include="Images\genericlogo.png" />
+    <Content Include="Images\Groot.jpg" />
+    <Content Include="Images\industrial_park_warehouse_maintenance.jpg" />
+    <Content Include="Images\Manager guy.jpg" />
+    <Content Include="Images\OldTeam.jpg" />
+    <Content Include="Images\RudeDude.jpg" />
+    <Content Include="Images\storytime_1.jpg" />
+    <Content Include="Images\TwitterWorldd.jpg" />
     <Content Include="Style\StyleSheet.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
@@ -78,6 +88,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Facebook.webp" />
+    <Content Include="Images\square-linkedin-512.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -88,7 +100,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CSS\" />
-    <Folder Include="Images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>

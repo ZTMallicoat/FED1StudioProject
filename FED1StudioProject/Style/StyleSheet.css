@@ -1,47 +1,174 @@
-﻿header, footer, body{
-    background-color:teal;
-    text-align:center
-}
-footer,p,h1,h2,ul,h3,h4,h5{
-    background-color:maroon;
-    color:burlywood
-}
-h1,h2{
-    font-weight:bold
-}
-h2{
-    font-style:italic
-}
-#Groot{
-    font-size:65px
-}
-.Subgroot{
-    font-size:32px
-}
-nav a {
-    font-weight: bold;
-    color: lightsalmon;
-}
-
-nav ul {
-    background-color: teal;
-    padding: 0;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
-}
-
-nav li:hover {
-    background-color: darkblue;
-}
-
-nav ul li {
+﻿.floatLeft {
     display: inline-block;
+    vertical-align: top;
+    float: left;
 }
 
-    nav ul li a {
-        padding: .4em 1em;
-        display: block;
+.floatRight {
+    display: inline-block;
+    vertical-align: top;
+    float: Right;
+}
+
+header {
+    margin-top: 25%;
+}
+
+.TitleSl {
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    float: left;
+    color:black;
+}
+
+ul, ol {
+    margin: 0 0 5% 35px;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+    height: 37px;
+    align-content:center;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
-    header h1{
-        text-shadow: 3px -4px 5px #333
-    }
+
+        nav ul li {
+            float: left;
+            display: block;
+            padding: 0;
+        }
+
+
+            nav ul li a {
+                color: lightgrey;
+                display: block;
+                font-family: 'Pontano Sans',Arial,sans-serif;
+                font-size: 13px;
+                letter-spacing: 0;
+                margin: 0;
+                padding: 10px 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-align:center;
+            }
+
+            nav ul li.selected a,
+            nav ul li.selected a:hover {
+                background-color: #FA620A;
+                color: #fff;
+                font-weight: bold;
+            }
+
+
+            nav ul li a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+.container {
+    box-shadow: 0 5px 5px 5px black;
+    background-color: #fff;
+    border-top: 20px solid #FA620A;
+    padding:2%;
+    width:45%;
+}
+section {
+    border:5px, black, solid;
+    background-color: #fff;
+    float: left;
+    margin: 0 1.5%;
+    width: auto;
+}
+
+aside {
+    box-shadow: 0 5px 5px 5px black;
+    background-color: #fff;
+    border-top: 20px solid #FA620A;
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+    margin-bottom:auto;
+}
+
+header {
+    padding: 5% 5%;
+    background: #000;
+    margin: 0 auto;
+    text-align: left;
+    background-image: url('images/cityscape.jpg');
+    background-repeat: no-repeat;
+    background-position-x: bottom;
+    min-height: 120px;
+    color: white;
+}
+
+body {
+    background-color: dimgrey;
+}
+.imageNextR {
+    margin-right:5%;
+    float:right
+}
+.imageNextL{
+    float:left;
+    margin-left:5%;
+}
+.textNext {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0 5% 0 5%;
+    padding: 2%;
+    text-align:center;
+}
+
+.clear {
+    clear: both;
+}
+main{
+    margin-bottom:2%;
+    margin-top:2%;
+}
+.ClassesNext{
+    margin:2% 2% 2% 2%;
+}
+footer {
+    width: 95%;
+   bottom:0;
+    position: relative;
+    border-top:1px solid black;
+}
+.ClassesText {
+    display: block;
+    float: right;
+    width: auto;
+    padding: 2%;
+    text-align: center;
+}
+.ImageInCon {
+    float: none;
+    margin: 0 0 0 0;
+}
+MyNameJeff{
+    float:left;
+}
+ul li{
+    font-size:35px;
+}
+ul,ul li, li{
+float:none;
+}
+.IndexImg{
+    box-shadow: 0 5px 5px 5px black;
+}
+img{
+    margin:.5% .5% .5% .5%;
+}
