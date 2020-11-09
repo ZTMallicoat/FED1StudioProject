@@ -20,7 +20,7 @@ header {
     margin-left: 1%;
     margin-bottom: 1%;
     float: left;
-    color:black;
+    color: black;
 }
 
 ul, ol {
@@ -31,7 +31,7 @@ nav {
     border-bottom: 2px solid black;
     padding: 5px 0;
     height: 37px;
-    align-content:center;
+    align-content: center;
 }
 
     nav ul {
@@ -57,7 +57,7 @@ nav {
                 padding: 10px 20px;
                 text-decoration: none;
                 text-transform: uppercase;
-                text-align:center;
+                text-align: center;
             }
 
             nav ul li.selected a,
@@ -77,11 +77,12 @@ nav {
     box-shadow: 0 5px 5px 5px black;
     background-color: #fff;
     border-top: 20px solid #FA620A;
-    padding:2%;
-    width:45%;
+    padding: 2%;
+    width: 45%;
 }
+
 section {
-    border:5px, black, solid;
+    border: 5px, black, solid;
     background-color: #fff;
     float: left;
     margin: 0 1.5%;
@@ -95,7 +96,7 @@ aside {
     float: right;
     margin: 0 1.5%;
     width: 30%;
-    margin-bottom:auto;
+    margin-bottom: auto;
 }
 
 header {
@@ -113,39 +114,46 @@ header {
 body {
     background-color: dimgrey;
 }
+
 .imageNextR {
-    margin-right:5%;
-    float:right
+    margin-right: 5%;
+    float: right
 }
-.imageNextL{
-    float:left;
-    margin-left:5%;
+
+.imageNextL {
+    float: left;
+    margin-left: 5%;
 }
+
 .textNext {
     display: block;
     float: none;
     width: auto;
     margin: 0 5% 0 5%;
     padding: 2%;
-    text-align:center;
+    text-align: center;
 }
 
 .clear {
     clear: both;
 }
-main{
-    margin-bottom:2%;
-    margin-top:2%;
+
+main {
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-.ClassesNext{
-    margin:2% 2% 2% 2%;
+
+.ClassesNext {
+    margin: 2% 2% 2% 2%;
 }
+
 footer {
     width: 95%;
-   bottom:0;
+    bottom: 0;
     position: relative;
-    border-top:1px solid black;
+    border-top: 1px solid black;
 }
+
 .ClassesText {
     display: block;
     float: right;
@@ -153,22 +161,59 @@ footer {
     padding: 2%;
     text-align: center;
 }
+
 .ImageInCon {
     float: none;
     margin: 0 0 0 0;
 }
-MyNameJeff{
-    float:left;
+
+HeadName {
+    float: left;
 }
-ul li{
-    font-size:35px;
+
+ul li {
+    font-size: 22px;
+    text-align: left;
 }
-ul,ul li, li{
-float:none;
+
+ul, ul li, li {
+    float: none;
 }
-.IndexImg{
+
+.IndexImg {
     box-shadow: 0 5px 5px 5px black;
 }
-img{
-    margin:.5% .5% .5% .5%;
+
+img {
+    width: 35%;
+    height: 20%;
+    margin: .5% .5% .5% .5%;
 }
+
+table {
+    padding: 0;
+    border-spacing: 0;
+    text-align: center;
+    align-content: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid black;
+    box-shadow: 0 5px 5px 5px black;
+}
+
+    table th {
+        background-color: #FA620A;
+        border-bottom: 1px solid black;
+    }
+    table td{
+        background-color:white;
+    }
+    table .leftT{
+        border-right: 1px dotted black;
+    }
+    table .rightT{
+        border-left: 1px dotted black;
+    }
